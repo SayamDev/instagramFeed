@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { Header } from "./components/headers";
+import { Navigation } from "./components/Navigation";
 import { fetchImages } from "./utils";
 import "./App.css";
 
@@ -19,6 +20,7 @@ const App = () => {
 
   return (
     <div className="App">
+    <Navigation />
       <Header title={title} />
       <form onSubmit={submitHandler}>
         <input onChange={(e) => setUserInput(e.target.value)} />
