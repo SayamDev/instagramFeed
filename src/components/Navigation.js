@@ -1,5 +1,6 @@
 import logo from "../images/logo.png";
 import searchicon from "../images/searchicon.png";
+import {Menu} from "./Menu"
 
 export const Navigation = () => {
   return (
@@ -10,6 +11,7 @@ export const Navigation = () => {
           <img className="searchIcon" src={searchicon} alt="search icon" />
           <span className="searchText">Search</span>
         </div>
+        <Menu />
       </div>
     </div>
   );

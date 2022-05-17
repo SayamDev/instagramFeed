@@ -12,7 +12,10 @@
   height: 250px;
 }
 
-
+.menu img {
+  width: 30px;
+  height: 30px;
+}
 
 .App-header {
   background-color: #282c34;
